@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import BannerImage from "../assets/pizza.jpeg";
 import "../styles/Home.css";
 
-function Home() {
+function Me() {
   return (
     <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
       <div className="headerContainer">
@@ -17,4 +17,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Me;
